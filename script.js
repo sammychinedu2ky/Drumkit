@@ -37,7 +37,7 @@ key.forEach(item => {
 function removeTransition(e) {
 
 	//console.log(this)
-
+	if(e.propertyName!=="transfrom")return
 	this.classList.remove("play")
 
 
